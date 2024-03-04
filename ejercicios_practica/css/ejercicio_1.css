@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+ .lenguaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } 
+
+section {
+    background: #00ffff;
+    padding: 10px;
+}
+
+footer{
+    background: #006de9;
+}
+
+footer img{
+    width: 50px;
+}
+
+li{
+    display:inline;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+ul{
+    padding-left: 0;
+    text-align: center;
+    margin: 10px;
+}
+
